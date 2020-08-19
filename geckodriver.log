@@ -167,13 +167,25 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1597837823028	Marionette	INFO	Listening on port 1966
 1597837823202	Marionette	WARN	TLS certificate errors will be ignored for this session
-1597837850388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\june\\AppData\\Local\\Temp\\rust_mozprofilejPRQnD"
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1597838838957	Marionette	INFO	Stopped listening on port 1966
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+les/XULStore.jsm, line 66: Error: Can't find profile directory.
 1597837851672	Marionette	INFO	Listening on port 2120
 1597837851917	Marionette	WARN	TLS certificate errors will be ignored for this session
-1597837893823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\june\\AppData\\Local\\Temp\\rust_mozprofileq787wG"
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597838911718	Marionette	INFO	Stopped listening on port 2120
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+adCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1597837895131	Marionette	INFO	Listening on port 2308
 1597837895355	Marionette	WARN	TLS certificate errors will be ignored for this session
